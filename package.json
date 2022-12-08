@@ -1,0 +1,27 @@
+{
+  "name": "mysql",
+  "version": "1.0.0",
+  "description": "Command line application that allows users to track and make changes to records using mysql database/tables.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdlahey1/Employee-Tracker-Application.git"
+  },
+  "author": "Matthew Lahey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdlahey1/Employee-Tracker-Application/issues"
+  },
+  "homepage": "https://github.com/mdlahey1/Employee-Tracker-Application#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.2.1"
+  }
+}
